@@ -7,8 +7,6 @@
 - mongodb
 - mailtrap
 
-![Course Image](./nextjs.png)
-
 ---
 
 Refference video
