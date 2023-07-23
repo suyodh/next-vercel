@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettify": "prettier --write \"src/**/*.tsx\" \"src/**/**/*.tsx\" \"src/**/**/**/*.tsx\" \"src/**/**/**/*.ts\""
   },
   "dependencies": {
     "@types/node": "20.3.2",
@@ -31,6 +32,7 @@
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
     "@types/jsonwebtoken": "^9.0.2",
-    "@types/nodemailer": "^6.4.8"
+    "@types/nodemailer": "^6.4.8",
+    "prettier": "^3.0.0"
   }
 }
